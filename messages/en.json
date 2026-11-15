@@ -1,0 +1,287 @@
+{
+  "Metadata": {
+    "title": "Secret Santa — online draw, no sign-up",
+    "description": "Set up the group, run the draw and each person sees only who they got, through their own link. No paper slips, no sign-up."
+  },
+  "Common": {
+    "tagline": "Free · Open source · No sign-up",
+    "saved": "Saved",
+    "cancel": "Cancel",
+    "remove": "Remove",
+    "loading": "Loading…",
+    "optional": "optional",
+    "people": "{count, plural, one {# person} other {# people}}",
+    "budget": "Suggested amount: {amount}",
+    "exchangeOn": "Gift exchange: {date}"
+  },
+  "CreateGroup": {
+    "headline": "Secret Santa without paper slips",
+    "intro": "Set up the group, run the draw and each person sees only who they got, through their own link. Not even the organizer finds out.",
+    "title": "Group name",
+    "titlePlaceholder": "Family Secret Santa",
+    "titleRequired": "Give the group a name.",
+    "exchangeDate": "Exchange day",
+    "budget": "Suggested amount",
+    "budgetHint": "Just an agreement: the app never handles money.",
+    "notes": "Notes",
+    "notesPlaceholder": "E.g. exchange at Christmas lunch, at Grandma's",
+    "hostName": "Your name",
+    "hostNameHint": "The name the group knows you by.",
+    "hostNameRequired": "Write your name to take part in the draw.",
+    "hostTakesPart": "I'm taking part in the draw too",
+    "hostTakesPartHint": "You'll get someone like everyone else. The app never shows you anyone else's result.",
+    "submit": "Create Secret Santa"
+  },
+  "Host": {
+    "badge": "You're organizing",
+    "editDetails": "Edit details",
+    "steps": "How it works",
+    "step1": "Add the participants",
+    "step2": "Run the draw",
+    "step3": "Each person opens their own link and sees who they got",
+    "participantsTitle": "Participants",
+    "participantsEmpty": "Nobody yet. Write the names below or send the group link.",
+    "addNames": "Add names",
+    "addNamesHint": "One per line or separated by commas.",
+    "addNamesPlaceholder": "Anna\nBen\nClaire",
+    "addSubmit": "Add",
+    "statusSelfJoined": "Joined via link",
+    "statusOpened": "Opened the link",
+    "statusNotOpened": "Hasn't opened yet",
+    "statusRevealed": "Has seen who they got",
+    "statusWishes": "Left gift ideas",
+    "sendLink": "Send link",
+    "copyLink": "Copy link",
+    "linkOnTheirPhone": "The link is on their phone",
+    "removeConfirm": "Remove {name} from the group?",
+    "personalLinksHint": "Each name you write gets a personal link. Send it to that person privately: it's how they see who they got.",
+    "inviteTitle": "Or let everyone join on their own",
+    "inviteHint": "Send the group link: each person writes their own name, and their personal link stays only on their phone.",
+    "inviteMessage": "Let's do Secret Santa: {title}. Open the link and write your name (no sign-up needed):",
+    "personalMessage": "Hi {name}! This is your link for the Secret Santa \"{title}\". It's yours only, don't pass it on. Use it to see who you got after the draw and to leave gift ideas:",
+    "exclusionsTitle": "Who can't get whom",
+    "exclusionsHint": "Couples or people who live together, for example. It works both ways.",
+    "exclusionFirst": "Person",
+    "exclusionSecond": "Can't get, and can't be got by",
+    "exclusionAdd": "Add rule",
+    "exclusionPick": "Choose…",
+    "exclusionsEmpty": "No rules. Anyone can get anyone.",
+    "exclusionLabel": "{first} and {second} can't get each other",
+    "drawTitle": "Draw",
+    "drawNeedsMore": "{count, plural, =0 {You need at least 3 people to run the draw.} one {# more person needed to run the draw.} other {# more people needed to run the draw.}}",
+    "drawReady": "All set. After the draw, the participant list and the rules are locked.",
+    "drawSubmit": "Run the draw",
+    "drawConfirm": "Run the draw now? To add someone afterwards, you'll need to redo it.",
+    "drawnAt": "Draw done on {date}.",
+    "drawnSecret": "Not even you can see who got whom from here. Each person sees only their own result.",
+    "revealedCount": "{revealed} of {total} have seen who they got.",
+    "redraw": "Redo the draw",
+    "redrawConfirm": "Redo the draw? The current result disappears and everyone will need to open their link again to see who they got.",
+    "redrawHint": "To add or remove someone, redo the draw.",
+    "mySide": "You're taking part too",
+    "openMine": "See who I got",
+    "hostLinkTitle": "Your organizer link",
+    "hostLinkHint": "It opens this screen on another phone. Keep it and don't send it to anyone.",
+    "dangerTitle": "Delete group",
+    "dangerHint": "Deletes the group, the participants, the draw and the gift ideas. This can't be undone.",
+    "deleteGroup": "Delete group",
+    "deleteConfirm": "Delete \"{title}\" for good? Everyone's links will stop working.",
+    "noHostToken": "This phone doesn't have the organizer link for this group. Open the organizer link you saved.",
+    "sendGroupLink": "Send group link on WhatsApp"
+  },
+  "Details": {
+    "title": "Group details",
+    "submit": "Save details"
+  },
+  "Join": {
+    "invitedLabel": "Secret Santa",
+    "whoIsIn": "Already in",
+    "nobodyYet": "Nobody has joined yet. Be the first.",
+    "whoAreYou": "What's your name?",
+    "namePlaceholder": "Your name",
+    "nameHint": "The name the group knows you by. Your personal link is saved on this phone.",
+    "nameRequired": "Write your name to join.",
+    "alreadyListed": "Is your name already on the list? Then ask the organizer for your personal link.",
+    "submit": "Join Secret Santa",
+    "drawnClosed": "The draw has already been done. If you're taking part, ask the organizer for your personal link.",
+    "trust": "We only ask for your name. No sign-up, password, phone number or payment.",
+    "hostShortcut": "You're organizing this group.",
+    "openHost": "Open organizer panel"
+  },
+  "Personal": {
+    "hello": "Hi, {name}!",
+    "waiting": "The draw hasn't been done yet. Come back to this same link later to see who you got.",
+    "revealTitle": "The draw is done",
+    "revealHint": "Make sure nobody is looking at your screen.",
+    "revealButton": "See who I got",
+    "youDrew": "You got",
+    "theirWishes": "{name}'s gift ideas",
+    "noWishes": "{name} hasn't left any gift ideas yet. Check again closer to the exchange.",
+    "hide": "Hide",
+    "show": "Show again",
+    "myWishes": "Your gift ideas",
+    "myWishesHint": "Whoever gets you will see them. E.g. clothing size, colors, a book, what you'd rather not get.",
+    "myWishesPlaceholder": "I like coffee, dark chocolate and mystery novels. Shoe size 7.",
+    "saveWishes": "Save gift ideas",
+    "keepLinkTitle": "Keep this link",
+    "keepLinkHint": "It shows you who you got, on any phone. Don't send it to anyone.",
+    "hostShortcut": "Open organizer panel"
+  },
+  "Manage": {
+    "checking": "Opening the group as organizer…",
+    "missingToken": "This organizer link is incomplete. Copy the whole link again."
+  },
+  "OpenPersonal": {
+    "checking": "Opening your link…",
+    "missingToken": "This personal link is incomplete. Copy the whole link again."
+  },
+  "MyGroups": {
+    "title": "My groups",
+    "link": "My groups",
+    "empty": "No groups on this phone yet.",
+    "create": "Create Secret Santa",
+    "roleHost": "Organizing",
+    "roleParticipant": "Taking part",
+    "forget": "Remove from this phone",
+    "forgetConfirm": "Remove \"{title}\" from this phone? The group still exists; you only lose the shortcut and the links saved here."
+  },
+  "Share": {
+    "copy": "Copy",
+    "copied": "Copied",
+    "copyFailed": "Couldn't copy. Tap and hold the link to copy it."
+  },
+  "Errors": {
+    "group_not_found": "We couldn't find this Secret Santa. Check the link with whoever sent it.",
+    "not_authorized": "This organizer link isn't valid.",
+    "participant_not_found": "This personal link no longer works. Ask the organizer for a new one.",
+    "participant_name_required": "Write a name.",
+    "participant_name_taken": "There's already someone called {name} in the group. If that's you, ask the organizer for your personal link.",
+    "group_full": "The group has reached the limit of 100 people.",
+    "group_already_drawn": "The draw has already been done. To change anything, the organizer needs to redo the draw.",
+    "not_enough_participants": "You need at least 3 people to run the draw.",
+    "draw_impossible": "The draw isn't possible with these rules. Remove a \"who can't get whom\" rule and try again.",
+    "draw_not_done": "The draw hasn't been done yet.",
+    "exclusion_invalid": "Choose two different people.",
+    "rate_limited": "You created many groups in a short time. {period, select, day {Try again tomorrow.} other {Try again in an hour.}}",
+    "network": "No connection. Your change wasn't saved.",
+    "unknown": "Something went wrong. Try again."
+  },
+  "LocaleSwitcher": {
+    "label": "Language"
+  },
+  "NotFound": {
+    "title": "Page not found",
+    "body": "Check the link or create a new Secret Santa.",
+    "cta": "Create Secret Santa"
+  },
+  "Legal": {
+    "about": "About",
+    "privacy": "Privacy",
+    "terms": "Terms",
+    "linksLabel": "About AmigoSecreto",
+    "updated": "Updated on {date}",
+    "back": "Back",
+    "contactTitle": "Contact",
+    "contactBody": "Questions, requests about your data or something wrong: <link>{contact}</link>."
+  },
+  "About": {
+    "title": "About AmigoSecreto",
+    "intro": "AmigoSecreto runs your Secret Santa draw online: each person sees only who they got, through their own link. It's free, has no sign-up and is open source.",
+    "sections": {
+      "secret": {
+        "title": "How the secret is kept",
+        "p1": "The draw runs on the server, not on the organizer's phone. The organizer's screen shows who has already seen their result, but never who got whom.",
+        "p2": "Each person has a personal link. Whoever joins through the group link keeps that link only on their own phone. When the organizer types the names, the organizer sends the personal links, so in theory they could open other people's links. If the group wants complete secrecy, everyone should join through the group link."
+      },
+      "safety": {
+        "title": "How to know it's safe",
+        "p1": "AmigoSecreto only asks for your name. It never asks for a password, verification code, phone number, ID number, card details or payment. If a page asks for any of that, it isn't AmigoSecreto.",
+        "p2": "The link comes from someone in your group. If in doubt, ask whoever sent it before opening it.",
+        "p3": "AmigoSecreto links start with {host}."
+      },
+      "who": {
+        "title": "Who makes it",
+        "p1": "AmigoSecreto is an independent project, made in Brazil and maintained by {operator}, the people behind QuemLeva."
+      },
+      "code": {
+        "title": "Open source",
+        "p1": "The code is open, under the AGPL-3.0 license, and anyone can check how the draw works <repo>on GitHub</repo>."
+      }
+    }
+  },
+  "Privacy": {
+    "title": "Privacy policy",
+    "intro": "This policy explains, in plain language, what data AmigoSecreto keeps, why and for how long. AmigoSecreto has no sign-up and doesn't sell or share data for advertising.",
+    "sections": {
+      "collect": {
+        "title": "What we keep",
+        "p1": "The group details the organizer writes: name, exchange day, suggested amount and notes.",
+        "p2": "Each participant's name, the gift ideas each person writes, the result of the draw and whether the person has opened their link and seen who they got.",
+        "p3": "A random code for your device, which recognizes you without a sign-up.",
+        "p4": "To prevent abuse, we log group creation with a scrambled version (hash) of the IP address. This log is deleted within 1 day."
+      },
+      "visibility": {
+        "title": "Who sees what",
+        "p1": "Anyone with the group link sees the group name, the date, the suggested amount and the names of the people already taking part.",
+        "p2": "Through their personal link, each person sees only who they got and that person's gift ideas. Your gift ideas are shown to whoever gets you.",
+        "p3": "The organizer link lets you change the group and run the draw, but doesn't show who got whom. Keep that link to yourself."
+      },
+      "device": {
+        "title": "On your device",
+        "p1": "Your browser stores the device code, your links (organizer and personal) and the \"My groups\" list, plus a cookie with the language you chose. We don't use advertising or tracking cookies."
+      },
+      "providers": {
+        "title": "Services we use",
+        "p1": "Supabase (database, with servers in São Paulo) and Vercel (website hosting). They process data only so AmigoSecreto can work and may keep technical access logs, such as the IP address, under their own policies."
+      },
+      "retention": {
+        "title": "How long",
+        "p1": "Groups are kept while AmigoSecreto is online, so the links keep working. The organizer can delete the group at any time, and you can ask for deletion through the contact below."
+      },
+      "rights": {
+        "title": "Your rights",
+        "p1": "Under Brazil's data protection law (LGPD), you can ask to see, correct or delete your data, or a whole group. Write to the contact below and include the group link.",
+        "p2": "In the app itself, you can change or delete your gift ideas, and the organizer can remove participants before the draw."
+      },
+      "controller": {
+        "title": "Data controller",
+        "p1": "The data controller is {operator}. If this policy changes, the date at the top is updated."
+      }
+    }
+  },
+  "Terms": {
+    "title": "Terms of use",
+    "intro": "By using AmigoSecreto, you agree to these terms.",
+    "sections": {
+      "service": {
+        "title": "The service",
+        "p1": "AmigoSecreto is free and provided as is, with no guarantee that it will always work or be free of errors. It may change or be discontinued; whenever possible, we'll let you know in advance."
+      },
+      "content": {
+        "title": "What you write",
+        "p1": "You're responsible for what you write in the group and in the gift ideas. Don't use AmigoSecreto for illegal, offensive or misleading content, or for spam. We may remove groups that break these rules."
+      },
+      "links": {
+        "title": "Links",
+        "p1": "Anyone with the group link can see the participants and join before the draw. The personal link shows one person's result: don't pass yours on. Don't share the organizer link."
+      },
+      "payments": {
+        "title": "Gifts and payments",
+        "p1": "AmigoSecreto doesn't sell, receive or broker gifts or payments. The suggested amount is just an agreement among you."
+      },
+      "license": {
+        "title": "Open source",
+        "p1": "AmigoSecreto's code is under the AGPL-3.0 license."
+      },
+      "law": {
+        "title": "Governing law",
+        "p1": "These terms are governed by the laws of Brazil."
+      }
+    }
+  },
+  "Preview": {
+    "chip": "Secret Santa",
+    "cta": "Join with your name and take part in the draw",
+    "alt": "Invitation to the Secret Santa {title}"
+  }
+}

@@ -1,0 +1,116 @@
+/* Design System tokens (AmigoSecreto: QuemLeva's system with its own festive red). Names follow docs/conventions.md.
+   Keep in sync with the Design System's tokens.json. */
+:root {
+  color-scheme: light dark;
+
+  /* Color — light */
+  --surface: #f7f5f3;
+  --card: #ffffff;
+  --ink: #221a1b;
+  --ink-soft: #4a3f40;
+  --ink-muted: #625657;
+  --border: #e5dfdc;
+  --border-control: #8d8384;
+  --divider: #f1edea;
+  --track: #f1edea;
+  --brand: #b4233c;
+  --brand-strong: #86172b;
+  --brand-tint: #fbe8eb;
+  --on-brand: #ffffff;
+  --ember: #a8670a;
+  --ember-strong: #7a4500;
+  --ember-tint: #fbf0dc;
+  --ember-track: #f1e2c6;
+
+  /* Spacing */
+  --space-1: 4px;
+  --space-2: 8px;
+  --space-3: 12px;
+  --space-4: 16px;
+  --space-5: 20px;
+  --space-6: 24px;
+
+  /* Radius */
+  --radius-sm: 12px;
+  --radius-md: 16px;
+  --radius-lg: 20px;
+  --radius-pill: 999px;
+
+  /* Size */
+  --size-chip: 36px;
+  --size-control: 44px;
+  --size-cta: 54px;
+
+  /* Type */
+  --font-sans: var(--font-jakarta), "Plus Jakarta Sans", system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+}
+
+/* Screen only: paper is always light, so printed pages keep dark text. */
+@media screen and (prefers-color-scheme: dark) {
+  :root {
+    --surface: #161213;
+    --card: #211a1b;
+    --ink: #f3eeee;
+    --ink-soft: #d2c8c9;
+    --ink-muted: #ad9fa1;
+    --border: #352b2d;
+    --border-control: #7d6f71;
+    --divider: #2a2224;
+    --track: #352b2d;
+    --brand: #f27a8e;
+    --brand-strong: #ffc9d2;
+    --brand-tint: #43202a;
+    --on-brand: #1c0b0f;
+    --ember: #e3a548;
+    --ember-strong: #f5c77e;
+    --ember-tint: #3a2a12;
+    --ember-track: #3e2f1a;
+  }
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  margin: 0;
+  background: var(--surface);
+  color: var(--ink);
+  font-family: var(--font-sans);
+  -webkit-font-smoothing: antialiased;
+  -webkit-tap-highlight-color: transparent;
+}
+
+button,
+input,
+select,
+textarea {
+  font: inherit;
+  color: inherit;
+}
+
+/* One focus style for every control: visible on keyboard, invisible on tap. */
+:focus-visible {
+  outline: 2px solid var(--brand);
+  outline-offset: 2px;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  * {
+    transition: none !important;
+  }
+}
+
+@media print {
+  :root {
+    color-scheme: light;
+  }
+}
+
+@media print {
+  html,
+  body {
+    background: var(--card);
+  }
+}

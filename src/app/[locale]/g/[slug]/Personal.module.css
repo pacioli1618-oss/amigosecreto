@@ -1,0 +1,85 @@
+.hello {
+  margin: 0;
+  font-size: 22px;
+  line-height: 28px;
+  font-weight: 800;
+}
+
+.result {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: var(--space-3);
+  text-align: center;
+  border-color: var(--brand);
+  border-width: 2px;
+}
+
+.waiting {
+  margin: 0;
+  font-size: 16px;
+  line-height: 23px;
+  color: var(--ink-soft);
+}
+
+.gift {
+  font-size: 44px;
+  line-height: 1;
+}
+
+.revealTitle {
+  margin: 0;
+  font-size: 20px;
+  line-height: 26px;
+  font-weight: 800;
+}
+
+.revealHint {
+  margin: 0;
+  font-size: 14px;
+  line-height: 20px;
+  color: var(--ink-muted);
+}
+
+.youDrew {
+  font-size: 13px;
+  font-weight: 700;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--brand-strong);
+}
+
+.recipientName {
+  margin: 0;
+  font-size: 36px;
+  line-height: 42px;
+  font-weight: 800;
+  letter-spacing: -0.02em;
+  color: var(--brand);
+  overflow-wrap: anywhere;
+}
+
+.wishes {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  padding: 12px 14px;
+  border-radius: var(--radius-sm);
+  background: var(--brand-tint);
+  text-align: left;
+}
+
+.wishesTitle {
+  font-size: 13px;
+  font-weight: 700;
+  color: var(--brand-strong);
+}
+
+.wishesText {
+  margin: 0;
+  font-size: 15px;
+  line-height: 22px;
+  white-space: pre-line;
+  overflow-wrap: anywhere;
+}

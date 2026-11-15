@@ -1,0 +1,287 @@
+{
+  "Metadata": {
+    "title": "Amigo secreto — sorteo online sin registro",
+    "description": "Arma el grupo, haz el sorteo y cada persona ve solo a quién le tocó, con su propio enlace. Sin papelitos y sin registro."
+  },
+  "Common": {
+    "tagline": "Gratis · Código abierto · Sin registro",
+    "saved": "Guardado",
+    "cancel": "Cancelar",
+    "remove": "Quitar",
+    "loading": "Cargando…",
+    "optional": "opcional",
+    "people": "{count, plural, one {# persona} other {# personas}}",
+    "budget": "Monto sugerido: {amount}",
+    "exchangeOn": "Intercambio de regalos: {date}"
+  },
+  "CreateGroup": {
+    "headline": "Amigo secreto sin papelitos",
+    "intro": "Arma el grupo, haz el sorteo y cada persona ve solo a quién le tocó, con su propio enlace. Ni quien organiza se entera.",
+    "title": "Nombre del grupo",
+    "titlePlaceholder": "Amigo secreto de la familia",
+    "titleRequired": "Ponle un nombre al grupo.",
+    "exchangeDate": "Día del intercambio",
+    "budget": "Monto sugerido",
+    "budgetHint": "Solo un acuerdo: la app no maneja dinero.",
+    "notes": "Notas",
+    "notesPlaceholder": "Ej.: intercambio en el almuerzo de Navidad, en casa de la abuela",
+    "hostName": "Tu nombre",
+    "hostNameHint": "Como te conoce el grupo.",
+    "hostNameRequired": "Escribe tu nombre para participar en el sorteo.",
+    "hostTakesPart": "Yo también participo en el sorteo",
+    "hostTakesPartHint": "Te tocará alguien como a todos. La app no te muestra el resultado de nadie más.",
+    "submit": "Crear amigo secreto"
+  },
+  "Host": {
+    "badge": "Tú organizas",
+    "editDetails": "Editar detalles",
+    "steps": "Cómo funciona",
+    "step1": "Agrega a los participantes",
+    "step2": "Haz el sorteo",
+    "step3": "Cada uno abre su propio enlace y ve a quién le tocó",
+    "participantsTitle": "Participantes",
+    "participantsEmpty": "Nadie todavía. Escribe los nombres abajo o envía el enlace del grupo.",
+    "addNames": "Agregar nombres",
+    "addNamesHint": "Uno por línea o separados por comas.",
+    "addNamesPlaceholder": "Ana\nBeto\nCarla",
+    "addSubmit": "Agregar",
+    "statusSelfJoined": "Entró por el enlace",
+    "statusOpened": "Abrió el enlace",
+    "statusNotOpened": "Aún no lo abrió",
+    "statusRevealed": "Ya vio a quién le tocó",
+    "statusWishes": "Dejó ideas",
+    "sendLink": "Enviar enlace",
+    "copyLink": "Copiar enlace",
+    "linkOnTheirPhone": "El enlace está en el celular de la persona",
+    "removeConfirm": "¿Quitar a {name} del grupo?",
+    "personalLinksHint": "Cada nombre que escribes recibe un enlace personal. Envíaselo a esa persona en privado: así ve a quién le tocó.",
+    "inviteTitle": "O que cada uno entre por su cuenta",
+    "inviteHint": "Envía el enlace del grupo: cada persona escribe su propio nombre y su enlace personal queda solo en su celular.",
+    "inviteMessage": "Hagamos amigo secreto: {title}. Entra al enlace y escribe tu nombre (no hace falta registrarse):",
+    "personalMessage": "¡Hola, {name}! Este es tu enlace del amigo secreto \"{title}\". Es solo tuyo, no se lo pases a nadie. Con él ves a quién te tocó después del sorteo y dejas ideas de regalo:",
+    "exclusionsTitle": "Quién no puede tocarle a quién",
+    "exclusionsHint": "Parejas o quienes viven juntos, por ejemplo. Vale en los dos sentidos.",
+    "exclusionFirst": "Persona",
+    "exclusionSecond": "No le toca ni le puede tocar a",
+    "exclusionAdd": "Agregar regla",
+    "exclusionPick": "Elige…",
+    "exclusionsEmpty": "Sin reglas. A cualquiera le puede tocar cualquiera.",
+    "exclusionLabel": "{first} y {second} no se tocan entre sí",
+    "drawTitle": "Sorteo",
+    "drawNeedsMore": "{count, plural, =0 {Se necesitan al menos 3 personas para sortear.} one {Falta # persona para poder sortear.} other {Faltan # personas para poder sortear.}}",
+    "drawReady": "Todo listo. Después del sorteo, la lista de participantes y las reglas quedan bloqueadas.",
+    "drawSubmit": "Hacer el sorteo",
+    "drawConfirm": "¿Hacer el sorteo ahora? Después, para agregar a alguien, habrá que rehacerlo.",
+    "drawnAt": "Sorteo hecho el {date}.",
+    "drawnSecret": "Ni tú puedes ver aquí a quién le tocó quién. Cada persona ve solo su propio resultado.",
+    "revealedCount": "{revealed} de {total} ya vieron a quién les tocó.",
+    "redraw": "Rehacer el sorteo",
+    "redrawConfirm": "¿Rehacer el sorteo? El resultado actual desaparece y todos tendrán que abrir su enlace de nuevo para ver a quién les tocó.",
+    "redrawHint": "Para agregar o quitar a alguien, rehaz el sorteo.",
+    "mySide": "Tú también participas",
+    "openMine": "Ver a quién me tocó",
+    "hostLinkTitle": "Tu enlace de organizador",
+    "hostLinkHint": "Con él abres esta pantalla en otro celular. Guárdalo y no se lo envíes a nadie.",
+    "dangerTitle": "Borrar grupo",
+    "dangerHint": "Borra el grupo, los participantes, el sorteo y las ideas de regalo. No se puede deshacer.",
+    "deleteGroup": "Borrar grupo",
+    "deleteConfirm": "¿Borrar \"{title}\" para siempre? Los enlaces de todos dejarán de funcionar.",
+    "noHostToken": "Este celular no tiene el enlace de organizador de este grupo. Abre el enlace de organizador que guardaste.",
+    "sendGroupLink": "Enviar enlace del grupo por WhatsApp"
+  },
+  "Details": {
+    "title": "Detalles del grupo",
+    "submit": "Guardar detalles"
+  },
+  "Join": {
+    "invitedLabel": "Amigo secreto",
+    "whoIsIn": "Quiénes ya están",
+    "nobodyYet": "Nadie entró todavía. Sé el primero.",
+    "whoAreYou": "¿Cómo te llamas?",
+    "namePlaceholder": "Tu nombre",
+    "nameHint": "Como te conoce el grupo. Tu enlace personal queda guardado en este celular.",
+    "nameRequired": "Escribe tu nombre para entrar.",
+    "alreadyListed": "¿Tu nombre ya está en la lista? Entonces pídele tu enlace personal a quien organiza.",
+    "submit": "Entrar al amigo secreto",
+    "drawnClosed": "El sorteo ya se hizo. Si participas, pídele tu enlace personal a quien organiza.",
+    "trust": "Solo pedimos tu nombre. Sin registro, contraseña, teléfono ni pagos.",
+    "hostShortcut": "Tú organizas este grupo.",
+    "openHost": "Abrir panel del organizador"
+  },
+  "Personal": {
+    "hello": "¡Hola, {name}!",
+    "waiting": "El sorteo todavía no se hizo. Vuelve a este mismo enlace después para ver a quién te tocó.",
+    "revealTitle": "El sorteo ya se hizo",
+    "revealHint": "Asegúrate de que nadie esté mirando tu pantalla.",
+    "revealButton": "Ver a quién me tocó",
+    "youDrew": "Te tocó",
+    "theirWishes": "Ideas de {name}",
+    "noWishes": "{name} todavía no dejó ideas. Vuelve más cerca del intercambio.",
+    "hide": "Ocultar",
+    "show": "Mostrar de nuevo",
+    "myWishes": "Tus ideas de regalo",
+    "myWishesHint": "Quien te tenga las verá. Ej.: talla de ropa, colores, un libro, lo que no quieres recibir.",
+    "myWishesPlaceholder": "Me gusta el café, el chocolate amargo y las novelas de misterio. Calzo 38.",
+    "saveWishes": "Guardar ideas",
+    "keepLinkTitle": "Guarda este enlace",
+    "keepLinkHint": "Con él ves a quién te tocó, en cualquier celular. No se lo envíes a nadie.",
+    "hostShortcut": "Abrir panel del organizador"
+  },
+  "Manage": {
+    "checking": "Abriendo el grupo como organizador…",
+    "missingToken": "Este enlace de organizador está incompleto. Copia el enlace completo de nuevo."
+  },
+  "OpenPersonal": {
+    "checking": "Abriendo tu enlace…",
+    "missingToken": "Este enlace personal está incompleto. Copia el enlace completo de nuevo."
+  },
+  "MyGroups": {
+    "title": "Mis grupos",
+    "link": "Mis grupos",
+    "empty": "Todavía no hay grupos en este celular.",
+    "create": "Crear amigo secreto",
+    "roleHost": "Organizo",
+    "roleParticipant": "Participo",
+    "forget": "Quitar de este celular",
+    "forgetConfirm": "¿Quitar \"{title}\" de este celular? El grupo sigue existiendo; solo pierdes el acceso directo y los enlaces guardados aquí."
+  },
+  "Share": {
+    "copy": "Copiar",
+    "copied": "Copiado",
+    "copyFailed": "No se pudo copiar. Mantén presionado el enlace para copiarlo."
+  },
+  "Errors": {
+    "group_not_found": "No encontramos este amigo secreto. Revisa el enlace con quien te lo envió.",
+    "not_authorized": "Este enlace de organizador no es válido.",
+    "participant_not_found": "Este enlace personal ya no sirve. Pídele uno nuevo a quien organiza.",
+    "participant_name_required": "Escribe un nombre.",
+    "participant_name_taken": "Ya hay alguien llamado {name} en el grupo. Si eres tú, pídele tu enlace personal a quien organiza.",
+    "group_full": "El grupo llegó al límite de 100 personas.",
+    "group_already_drawn": "El sorteo ya se hizo. Para cambiar algo, quien organiza tiene que rehacer el sorteo.",
+    "not_enough_participants": "Se necesitan al menos 3 personas para sortear.",
+    "draw_impossible": "Con estas reglas no se puede sortear. Quita alguna regla de \"quién no puede tocarle a quién\" e inténtalo de nuevo.",
+    "draw_not_done": "El sorteo todavía no se hizo.",
+    "exclusion_invalid": "Elige dos personas distintas.",
+    "rate_limited": "Creaste muchos grupos en poco tiempo. {period, select, day {Inténtalo de nuevo mañana.} other {Inténtalo de nuevo en una hora.}}",
+    "network": "Sin conexión. Tu cambio no se guardó.",
+    "unknown": "Algo salió mal. Inténtalo de nuevo."
+  },
+  "LocaleSwitcher": {
+    "label": "Idioma"
+  },
+  "NotFound": {
+    "title": "Página no encontrada",
+    "body": "Revisa el enlace o crea un amigo secreto nuevo.",
+    "cta": "Crear amigo secreto"
+  },
+  "Legal": {
+    "about": "Acerca de",
+    "privacy": "Privacidad",
+    "terms": "Términos",
+    "linksLabel": "Acerca de AmigoSecreto",
+    "updated": "Actualizado el {date}",
+    "back": "Volver",
+    "contactTitle": "Contacto",
+    "contactBody": "Dudas, pedidos sobre tus datos o algo que no funciona: <link>{contact}</link>."
+  },
+  "About": {
+    "title": "Acerca de AmigoSecreto",
+    "intro": "AmigoSecreto hace el sorteo del amigo secreto (o amigo invisible) por internet: cada persona ve solo a quién le tocó, con su propio enlace. Es gratis, sin registro y de código abierto.",
+    "sections": {
+      "secret": {
+        "title": "Cómo se guarda el secreto",
+        "p1": "El sorteo se hace en el servidor, no en el celular de quien organiza. La pantalla del organizador muestra quién ya vio su resultado, pero nunca a quién le tocó quién.",
+        "p2": "Cada persona tiene un enlace personal. Quien entra por el enlace del grupo tiene ese enlace solo en su propio celular. Cuando el organizador escribe los nombres, es él quien envía los enlaces personales, así que, en teoría, podría abrir los enlaces de los demás. Si el grupo quiere secreto total, que cada uno entre por el enlace del grupo."
+      },
+      "safety": {
+        "title": "Cómo saber que es seguro",
+        "p1": "AmigoSecreto solo pide tu nombre. Nunca pide contraseña, código de verificación, teléfono, documento, datos de tarjeta ni pagos. Si una página te pide eso, no es AmigoSecreto.",
+        "p2": "El enlace te llega de alguien de tu grupo. Si tienes dudas, pregúntale a quien te lo envió antes de abrirlo.",
+        "p3": "Los enlaces de AmigoSecreto empiezan con {host}."
+      },
+      "who": {
+        "title": "Quién lo hace",
+        "p1": "AmigoSecreto es un proyecto independiente, hecho en Brasil y mantenido por {operator}, los mismos de QuemLeva."
+      },
+      "code": {
+        "title": "Código abierto",
+        "p1": "El código es abierto, bajo la licencia AGPL-3.0, y cualquiera puede revisar cómo funciona el sorteo <repo>en GitHub</repo>."
+      }
+    }
+  },
+  "Privacy": {
+    "title": "Política de privacidad",
+    "intro": "Esta política explica, en lenguaje simple, qué datos guarda AmigoSecreto, para qué y por cuánto tiempo. AmigoSecreto no tiene registro y no vende ni comparte datos para publicidad.",
+    "sections": {
+      "collect": {
+        "title": "Qué guardamos",
+        "p1": "Los datos del grupo que escribe quien organiza: nombre, día del intercambio, monto sugerido y notas.",
+        "p2": "El nombre de cada participante, las ideas de regalo que escribe cada uno, el resultado del sorteo y si la persona ya abrió su enlace y vio a quién le tocó.",
+        "p3": "Un código aleatorio del dispositivo, que te reconoce sin registro.",
+        "p4": "Para evitar abusos, registramos la creación de grupos con una versión cifrada (hash) de la dirección IP. Ese registro se borra en un máximo de 1 día."
+      },
+      "visibility": {
+        "title": "Quién ve qué",
+        "p1": "Quien tiene el enlace del grupo ve el nombre del grupo, la fecha, el monto sugerido y los nombres de quienes ya participan.",
+        "p2": "Con su enlace personal, cada persona ve solo a quién le tocó y las ideas de esa persona. Tus ideas las ve quien te tenga.",
+        "p3": "El enlace de organizador permite cambiar el grupo y hacer el sorteo, pero no muestra a quién le tocó quién. Guarda ese enlace solo para ti."
+      },
+      "device": {
+        "title": "En tu dispositivo",
+        "p1": "El navegador guarda el código del dispositivo, tus enlaces (de organizador y personal) y la lista de \"Mis grupos\", además de una cookie con el idioma elegido. No usamos cookies de publicidad ni de seguimiento."
+      },
+      "providers": {
+        "title": "Servicios que usamos",
+        "p1": "Supabase (base de datos, con servidores en São Paulo) y Vercel (alojamiento del sitio). Tratan los datos solo para que AmigoSecreto funcione y pueden mantener registros técnicos de acceso, como la dirección IP, según sus propias políticas."
+      },
+      "retention": {
+        "title": "Por cuánto tiempo",
+        "p1": "Los grupos se guardan mientras AmigoSecreto esté en línea, para que los enlaces sigan funcionando. Quien organiza puede borrar el grupo en cualquier momento, y tú puedes pedir la eliminación por el contacto de abajo."
+      },
+      "rights": {
+        "title": "Tus derechos",
+        "p1": "Según la ley brasileña de protección de datos (LGPD), puedes pedir ver, corregir o borrar tus datos, o un grupo entero. Escribe al contacto de abajo e incluye el enlace del grupo.",
+        "p2": "En la propia app puedes cambiar o borrar tus ideas de regalo, y quien organiza puede quitar participantes antes del sorteo."
+      },
+      "controller": {
+        "title": "Responsable",
+        "p1": "El responsable de los datos es {operator}. Si esta política cambia, se actualiza la fecha de arriba."
+      }
+    }
+  },
+  "Terms": {
+    "title": "Términos de uso",
+    "intro": "Al usar AmigoSecreto, aceptas estos términos.",
+    "sections": {
+      "service": {
+        "title": "El servicio",
+        "p1": "AmigoSecreto es gratis y se ofrece tal como está, sin garantía de que funcione siempre o sin errores. Puede cambiar o dejar de existir; siempre que sea posible, avisaremos antes."
+      },
+      "content": {
+        "title": "Lo que escribes",
+        "p1": "Eres responsable de lo que escribes en el grupo y en las ideas de regalo. No uses AmigoSecreto para contenido ilegal, ofensivo o engañoso, ni para spam. Podemos borrar grupos que no cumplan estas reglas."
+      },
+      "links": {
+        "title": "Enlaces",
+        "p1": "Quien tiene el enlace del grupo puede ver a los participantes y entrar antes del sorteo. El enlace personal muestra el resultado de una persona: no pases el tuyo. No compartas el enlace de organizador."
+      },
+      "payments": {
+        "title": "Regalos y pagos",
+        "p1": "AmigoSecreto no vende, recibe ni intermedia regalos ni pagos. El monto sugerido es solo un acuerdo entre ustedes."
+      },
+      "license": {
+        "title": "Código abierto",
+        "p1": "El código de AmigoSecreto está bajo la licencia AGPL-3.0."
+      },
+      "law": {
+        "title": "Ley aplicable",
+        "p1": "Estos términos se rigen por las leyes de Brasil."
+      }
+    }
+  },
+  "Preview": {
+    "chip": "Amigo secreto",
+    "cta": "Entra con tu nombre y participa en el sorteo",
+    "alt": "Invitación al amigo secreto {title}"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "me": {
+    "id": "8a2282f2-b30a-4ad6-9088-cbef9e3dfca7",
+    "name": "Ana",
+    "wishes": null
+  },
+  "group": {
+    "slug": "4ckgscv5vxfu",
+    "notes": null,
+    "title": "Amigo secreto da família",
+    "budget": 100.0,
+    "locale": "pt-BR",
+    "currency": "BRL",
+    "drawn_at": "2026-11-15T20:34:07.363068-03:00",
+    "exchange_date": "2026-12-24",
+    "participant_names": [
+      "Luca",
+      "Ana",
+      "Beto"
+    ]
+  },
+  "recipient": {
+    "name": "Beto",
+    "wishes": null
+  },
+  "has_revealed": true
+}

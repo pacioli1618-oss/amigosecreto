@@ -1,0 +1,42 @@
+{
+  "slug": "4ckgscv5vxfu",
+  "notes": null,
+  "title": "Amigo secreto da família",
+  "budget": 100.0,
+  "locale": "pt-BR",
+  "currency": "BRL",
+  "drawn_at": "2026-11-15T20:34:07.363068-03:00",
+  "exclusions": [],
+  "participants": [
+    {
+      "id": "15db4b94-8449-497e-92e7-3dabd0d1e073",
+      "name": "Luca",
+      "has_opened": false,
+      "has_wishes": false,
+      "has_revealed": false,
+      "invite_token": null
+    },
+    {
+      "id": "8a2282f2-b30a-4ad6-9088-cbef9e3dfca7",
+      "name": "Ana",
+      "has_opened": false,
+      "has_wishes": false,
+      "has_revealed": true,
+      "invite_token": "fixture-invite-token"
+    },
+    {
+      "id": "8b39a314-4b86-414d-b6c0-a5a982877ad4",
+      "name": "Beto",
+      "has_opened": false,
+      "has_wishes": false,
+      "has_revealed": false,
+      "invite_token": "fixture-invite-token"
+    }
+  ],
+  "exchange_date": "2026-12-24",
+  "participant_names": [
+    "Luca",
+    "Ana",
+    "Beto"
+  ]
+}
