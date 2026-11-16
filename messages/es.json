@@ -283,5 +283,16 @@
     "chip": "Amigo secreto",
     "cta": "Entra con tu nombre y participa en el sorteo",
     "alt": "Invitación al amigo secreto {title}"
+  },
+  "Install": {
+    "button": "Fijar en la pantalla del celular",
+    "title": "Fijar en la pantalla del celular",
+    "intro": "Así AmigoSecreto queda junto a tus apps y abre directo en tus grupos, sin buscar el enlace.",
+    "ios1": "Toca el botón Compartir (el cuadrado con una flecha hacia arriba) en la barra de Safari.",
+    "ios2": "Desliza la lista y toca \"Agregar a inicio\".",
+    "ios3": "Toca \"Agregar\". El ícono de AmigoSecreto aparece en la pantalla del celular.",
+    "menu1": "Abre el menú del navegador (los tres puntos ⋮).",
+    "menu2": "Toca \"Agregar a la pantalla principal\" o \"Instalar app\" y confirma.",
+    "done": "Entendido"
   }
 }
