@@ -14,7 +14,7 @@ export default function LocaleSwitcher() {
   const [isPending, startTransition] = useTransition();
 
   return (
-    <label style={{display: 'inline-flex', alignItems: 'center', gap: 6, fontSize: 13, color: 'var(--ink-soft)'}}>
+    <label style={{display: 'inline-flex', alignItems: 'center', gap: 6, minWidth: 0, fontSize: 13, color: 'var(--ink-soft)'}}>
       {/* Visually hidden: the language names already say what this is, and the wordmark needs the room. */}
       <span style={{position: 'absolute', width: 1, height: 1, overflow: 'hidden', clip: 'rect(0 0 0 0)', whiteSpace: 'nowrap'}}>{t('label')}</span>
       <select
@@ -28,6 +28,9 @@ export default function LocaleSwitcher() {
           });
         }}
         style={{
+          minWidth: 0,
+          maxWidth: '100%',
+          textOverflow: 'ellipsis',
           height: 36,
           borderRadius: 'var(--radius-sm)',
           border: '1px solid var(--border-control)',
